@@ -175,5 +175,5 @@ def main():
     parsed_vods = parse_vods(raw_vods)
     post_vods_to_gist(parsed_vods, raw_vods)
 
-if __name__ == 'main':
+if __name__ == '__main__':
     main()
